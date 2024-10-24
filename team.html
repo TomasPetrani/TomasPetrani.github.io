@@ -11,7 +11,25 @@
 </head>
 <body>
 <div class="navDiv">
-    <?php include('menu.php'); ?>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-teal">
+        <a class="navbar-brand navMain" href="#">TÍMOVÝ PROJEKT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto" id="nav2">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="team.html">Členovia tímu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="zapisnice.html">Zápisnice</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </div>
 <header class="text-white">
     <div class="header-container text-center py-5">
@@ -30,35 +48,14 @@
     <div class="main-container">
         <h2>O nás</h2>
         <ul class="list-group">
-
             <li class="list-group-item">
                 <strong>Adam Budziňák</strong><br>
                 <span>ID: 115052</span><br>
                 <span>Email: xbudzinak@stuba.sk</span>
             </li>
-            <li class="list-group-item">
-                <strong>Tomáš Petráni</strong><br>
-                <span>ID: 115347</span><br>
-                <span>Email: xpetrani@stuba.sk</span>
-            </li>
-            <li class="list-group-item">
-                <strong>Daniel Ondrejka</strong><br>
-                <span>ID: 115093</span><br>
-                <span>Email: xondrejkad@stuba.sk</span>
-            </li>
-            <li class="list-group-item">
-                <strong>Radovan Borsig</strong><br>
-                <span>ID: 115050</span><br>
-                <span>Email: xborsig@stuba.sk</span>
-            </li>
-            <li class="list-group-item">
-                <strong>Filip Kolenčik</strong><br>
-                <span>ID: 104498</span><br>
-                <span>Email: xkolencikf@stuba.sk</span>
-            </li>
+            <!-- Add other team members here -->
         </ul>
     </div>
-
 </main>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
